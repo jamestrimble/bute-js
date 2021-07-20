@@ -1,9 +1,3 @@
-const unicornFun = (input, {postfix = 'rainbows'} = {}) => {
-	if (typeof input !== 'string') {
-		throw new TypeError(`Expected a string, got ${typeof input}`);
-	}
+// vim: set ts=4 sts=4 noet
 
-	return `${input} & ${postfix}`;
-};
-
-export default unicornFun;
+export {default as VtxSet} from './src/set.js';

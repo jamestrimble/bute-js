@@ -15,7 +15,9 @@
 		"node": ">=12"
 	},
 	"scripts": {
-		"test": "xo && ava"
+		"test": "ava",
+		"stricttest": "xo && ava",
+		"xofix": "xo --fix"
 	},
 	"files": [
 		"index.js"
